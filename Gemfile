@@ -18,6 +18,12 @@ gem "puma", "~> 5.0"
 # Use importmap for JS modules
 gem "importmap-rails", "~> 1.1"
 
+# Stimulus JS library for Rails
+gem "stimulus-rails", "~> 1.1"
+
+# Dart implementation of Sass for Rails
+gem "dartsass-rails", "~> 0.4.0"
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
@@ -30,5 +36,3 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
-
-gem "stimulus-rails", "~> 1.1"
