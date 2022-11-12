@@ -146,6 +146,8 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.5.3-x86_64-darwin)
+    stimulus-rails (1.1.1)
+      railties (>= 6.0.0)
     thor (1.2.1)
     timeout (0.3.0)
     tzinfo (2.0.5)
@@ -165,6 +167,7 @@ DEPENDENCIES
   rails (~> 7.0.4)
   sprockets-rails
   sqlite3 (~> 1.4)
+  stimulus-rails (~> 1.1)
   tzinfo-data
 
 RUBY VERSION
