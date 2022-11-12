@@ -12,10 +12,11 @@ This app was generated as a minimal install using:
 
 If you are downloading this to run locally clone the repository from here
 
-    $ git clone
+    $ git clone https://github.com/leesheppard/stimulus-example.git
     $ cd stimulus-example
+    $ bundle
 
-Add `importmap-rails` to the Rails application:
+Add [importmap-rails](https://github.com/rails/importmap-rails) to the Rails application:
 
     $ ./bin/bundle add importmap-rails
     $ ./bin/rails importmap:install
@@ -37,7 +38,7 @@ Copying binstub
 create  bin/importmap
 ```
 
-Add stimulus-rails to the Rails application:
+Add [stimulus-rails](https://github.com/hotwired/stimulus-rails/) to the Rails application:
 
 ```bash
 $ ./bin/bundle add stimulus-rails
