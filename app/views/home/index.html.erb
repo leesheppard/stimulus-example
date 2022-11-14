@@ -1,2 +1,28 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<section class="section">
+
+<%= render "shared/slidepanel" %>
+
+  <div class="container is-max-desktop">
+  <div class="level-item">
+    <%= image_tag("rails-g-stimulus.png", size: "650x174", alt: "rails generate stimulus controller") %>
+  </div>
+  <h1 class="title has-text-centered is-size-1">Rails Stimulus JS - Accordions with Toggle class example</h1>
+    <div class="level-item p-5 my-5">
+    <%= image_tag("accordion.png", size: "350x260", alt: "accordion") %>
+    </div>
+    <p class="subtitle">
+      Examples on this page of how using a DRY technique with Stimulus JS we can create may variations of accordions with the toggle class.
+    </p>
+
+<div data-controller="toggle" data-action="click->toggle#toggle" data-toggle-css-class="active" class="toggle-example is-link">
+      Toggle
+    <div class="booger">Hello</div>
+    </div>
+
+<div class="level-item">
+<%= image_tag("qrcode.png", size: "250x174", alt: "rails generate stimulus controller") %>
+</div>
+
+</div>
+</section>
+

@@ -1,0 +1,46 @@
+.toggle-example {
+    color: green;
+
+    .booger {
+        display: none;
+    }
+
+    &.active {
+        background-color: red;
+        padding: 1rem;
+
+        .booger {
+            display: block;
+        }
+    }
+}
+
+.slideout-example {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    left: -112px;
+    width: 200px;
+    height: 100vh;
+    z-index: 99;
+    transition: left .4s;
+
+    i {
+        background-color: white;
+        border-bottom-right-radius: 2em;
+        border-top-right-radius: 2em;
+        margin-top: 2em;
+        padding: 1.5rem;
+    }
+
+    &.active {
+        background-color: red;
+        left: 0;
+
+        i {
+            background-color: unset;
+            transform: rotate(180deg);
+        }
+    }
+}
